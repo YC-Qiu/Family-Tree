@@ -1,0 +1,62 @@
+Family Tree - By: Nihir Singh
+
+XTeam No: x190
+
+Team Members: Nihir Singh : nsingh44@wisc.edu, Allison Seigler, Ryan Demar, YC Qiu
+
+Problem:
+
+Often times, someone forgets a birthday or another important event occurring once a year of a
+family member and this may lead to tensions in family relations, guiltiness, and various
+other negative outcomes. The proposed program would make sure you remember the important date, and
+whose special day it is!
+
+Primary StakeHolder: 
+Anyone can use this application for their benefit, as it can remind anyone about the important dates. The user will benefit from the application as he/she will get reminded about the various important events and the name of the person and
+how the person is related to the user.
+
+Graphical User Interface:
+
+Any form of a box or a dialog box can be used to put in the data shown in the Output Example, along with an image of the special person if available. 
+
+Data Structure: 
+
+The actual family tree of a specific person can be implemented either as an efficient tree structure, or a linked list (preferably tree for better complexity). The main implementation is that the tree would be made such that it accurately represents the actual family tree of that person. So essentially, every person would have a family tree of that person's family.  A graph can be used to help traverse through the data structure nodes to find an element starting from a given element. This traversal would give the user's relation to that person. 
+
+eg: Today is John's (user), Dad's ( Peter) , Sister's (Susan) , Husband's (Griffin), Brother's (Donald) Birthday !!!
+
+ 
+
+Input Data File Format: A CSV file could be used, which specifies the family members in order of their age and spouses, eg: great grandmother and great grandfather first, then their kids and spouses and so on.
+
+ 
+
+Output Example:
+
+start OUTPUT 
+
+     Good Morning User, 
+
+     Today is Donald's Birthday (March 26)
+
+     How are you related ?
+
+                    Donald,  brother of Griffin, husband of Susan, sister of Peter, Father of User.
+
+     Hope you have a nice and an amazing day :)
+
+ 
+
+end OUTPUT
+
+ 
+
+ 
+
+Milestones: 
+
+1. Implementing a proper data structure of the family tree and mapping it using a graph and testing proper retrieval structure using graphs (every retrieval should be the shortest path from point A to point B).
+
+2. Implementing Date and Time functionality used to display the date on which the special occasion occurred.
+
+3. Making sure the GUI works as per the agreed drawings.
