@@ -21,13 +21,13 @@ Any form of a box or a dialog box can be used to put in the data shown in the Ou
 
 Data Structure: 
 
-The actual family tree of a specific person can be implemented either as an efficient tree structure, or a linked list (preferably tree for better complexity). The main implementation is that the tree would be made such that it accurately represents the actual family tree of that person. So essentially, every person would have a family tree of that person's family.  A graph can be used to help traverse through the data structure nodes to find an element starting from a given element. This traversal would give the user's relation to that person. 
+We can use a graph to store different people as vertices and their relation to other people as edges.  A Person object can be stored at each vertex, which would include a name, age, birthday, and possibly an image file.  Graph traversals would always start at the user's vertex and find the vertex of the desired person.  Once that vertex is found, the shortest possible path would be computed and printed out.  As each edge from the user to the person is traversed, that edge's label (person's relation to other person) would be printed.  An array of arrays can be used to store special events at each day.  When the program is opened, the people associated with the current day would be searched for in the tree to begin the process.
 
 eg: Today is John's (user), Dad's ( Peter) , Sister's (Susan) , Husband's (Griffin), Brother's (Donald) Birthday !!!
 
  
 
-Input Data File Format: A CSV file could be used, which specifies the family members in order of their age and spouses, eg: great grandmother and great grandfather first, then their kids and spouses and so on.
+Input Data File Format: A CSV file could be used, which specifies the family members in order of their age and spouses, eg: great grandmother and great grandfather first, then their kids and spouses and so on.  This CSV file 
 
  
 
