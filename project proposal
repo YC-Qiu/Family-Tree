@@ -26,7 +26,7 @@ eg: Today is John's (user), Dad's ( Peter) , Sister's (Susan) , Husband's (Griff
 
  
 
-Input Data File Format: A CSV file could be used, which specifies the family members in order of their age and spouses, eg: great grandmother and great grandfather first, then their kids and spouses and so on.  This CSV file 
+Input Data File Format: A CSV file could be used, which specifies the family members, their relationship to other family members, and their birthdays.
 
  
 
