@@ -65,6 +65,7 @@ Tasks:
 
 1. Writing graph implementation, including insertion and deletion of vertices, insertion and deletion of edges, and basic search. -Allison
 2. Writing method to correctly print out order of relationships between people. -Allison
-3. Writing array of days and events stored in each day, making sure it can be used to print people's birthdays from the graph correctly based on a day. -NIHIR
+3. Writing array of days and events stored in each day, making sure it can be used to print people's birthdays from the graph correctly based on a day. -Nihir
 4. Using Date and Time functionality and the array of arrays to automatically print events corresponding to the current day
 5. Creating the GUI and making sure it works as described in the drawings.
+6. Create a sample CSV input file for the application.
