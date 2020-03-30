@@ -15,9 +15,8 @@ Primary StakeHolder:
 Anyone can use this application for their benefit, as it can remind anyone about the important dates. The user will benefit from the application as he/she will get reminded about the various important events and the name of the person and
 how the person is related to the user.
 
-Graphical User Interface:
+Graphical User Interface: see images
 
-Any form of a box or a dialog box can be used to put in the data shown in the Output Example, along with an image of the special person if available. 
 
 Data Structure: 
 
@@ -31,7 +30,7 @@ Input Data File Format: A CSV file could be used, which specifies the family mem
 
  
 
-Output Example:
+Output Example (see GUI images for more):
 
 start OUTPUT 
 
@@ -55,8 +54,17 @@ end OUTPUT
 
 Milestones: 
 
-1. Implementing a proper data structure of the family tree and mapping it using a graph and testing proper retrieval structure using graphs (every retrieval should be the shortest path from point A to point B).
+1. Implementing a graph to store the information, with edges that can store a relation and vertices that can store a person.  Traversals must be able to return the shortest path and print out relations between people in the correct order.  Additions and deletions must be successful.
 
-2. Implementing Date and Time functionality used to display the date on which the special occasion occurred.
+2. Implementing Date and Time functionality so that birthdays corresponding to the current day are automatically displayed.  Array storing special days associated with the current day must be implemented correctly and data must be pulled from the graph correctly.
 
 3. Making sure the GUI works as per the agreed drawings.
+
+
+Tasks:
+
+1. Writing graph implementation, including insertion and deletion of vertices, insertion and deletion of edges, and basic search. -Allison
+2. Writing method to correctly print out order of relationships between people. -Allison
+3. Writing array of days and events stored in each day, making sure it can be used to print people's birthdays from the graph correctly based on a day.
+4. Using Date and Time functionality and the array of arrays to automatically print events corresponding to the current day
+5. Creating the GUI and making sure it works as described in the drawings.
